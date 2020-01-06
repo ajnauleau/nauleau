@@ -1,0 +1,35 @@
+{
+  "name": "nauleau",
+  "version": "1.0.0",
+  "description": "Nauleau Designs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajnauleau/nauleau.git"
+  },
+  "keywords": [
+    "nauleau",
+    "antoine",
+    "fashion",
+    "bags",
+    "design"
+  ],
+  "author": "ajnauleau <antoine@nauleau.io>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ajnauleau/nauleau/issues"
+  },
+  "homepage": "https://github.com/ajnauleau/nauleau#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "express-validator": "^6.3.1",
+    "hbs": "^4.0.6",
+    "morgan": "^1.9.1"
+  }
+}

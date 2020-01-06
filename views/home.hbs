@@ -1,0 +1,51 @@
+
+<!-- home.handlebars -->
+
+<body>
+<div class="front page">
+
+    <a href="/posts/"><p class="reddit"><strong>reddit-feed</strong></p></a>
+
+    <p>/r/{{subreddit}}</p>
+
+    <div class="row">
+        <div class="col-sm-8 col-sm-offset-2">
+            <div class="feed">
+                <ul>
+                    {{#each posts}}
+                        <!-- replace with feed -->
+                        <li class="list-group-item">
+                            <div class="lead">
+                                <a href="/posts/{{this._id}}">{{this.title}}</a>
+                            </div>
+                            <a href="{{this.url}}">{{this.url}}</a>
+                            <p class="light">Posted by /u/{{this.author.username}}</p>
+                            <div class="text-right">
+                                <a href="/n/{{this.subreddit}}">{{this.subreddit}}</a>
+                            </div>
+                            <div class="voting-container">
+                                <form class="vote-up" data-id="{{this._id}}">
+                                    <button type="submit">Vote Up &nbsp &nbsp</button>
+                                </form>
+                                <form class="vote-down" data-id="{{this._id}}">
+                                    <button type="submit">Vote Down</button>
+                                </form>
+                            </div>
+                        </li>
+                    {{/each}}
+                </ul>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="post">
+        <div class="hero">
+            <div class="hero-overlay-text">
+                <a href="/posts/new/" class="call-to-action-btn">CREATE POST</a>
+            </div>
+        </div>
+    </div>
+
+</div>
+</body>
