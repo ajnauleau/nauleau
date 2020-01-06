@@ -27,11 +27,10 @@ const mainRouter = require("./routes/mainRouter");
 
 app.use("/", mainRouter);
 
-app.set('port', process.env.PORT);
-app.set('port', 3000);
+const PORT = process.env.PORT || 3000;
 
-app.listen(app.get('port'), () => {
-        console.log('Server is running on port 3000');
-    });
+app.listen(PORT, () => {
+    console.log(`Listening on port ${PORT}...`);
+});
 
 module.exports = app;
