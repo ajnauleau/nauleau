@@ -30,10 +30,8 @@ app.use("/", mainRouter);
 app.set('port', process.env.PORT);
 app.set('port', 3000);
 
-if (!module.parent) {
-    app.listen(app.get('port'), () => {
+app.listen(app.get('port'), () => {
         console.log('Server is running on port 3000');
     });
-}
 
 module.exports = app;
