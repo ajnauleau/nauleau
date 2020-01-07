@@ -56,11 +56,11 @@ body {
 
 .item-description {
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 8px;
 }
 
 .item-details {
-    margin-top: 32px;
+    margin-top: 34px;
 }
 
 .item-details > .bottom-space {
