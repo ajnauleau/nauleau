@@ -22,6 +22,14 @@ body {
     border: solid 1px lightgrey;
 }
 
+@media only screen and (max-width: 520px) {
+    .navbar {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+}
+
 /*Footer*/
 
 .content {
