@@ -31,6 +31,13 @@ body {
     padding: 20px;
 }
 
+@media only screen and (max-width: 520px) {
+    .content {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
 .border {
     margin-top: 60px;
     border-bottom: lightgrey solid 1px;
@@ -47,8 +54,15 @@ body {
 
 .main {
     display: flex;
-
 }
+
+@media only screen and (max-width: 520px) {
+    .main {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
 
 .description {
     padding: 38px;
