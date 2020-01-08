@@ -77,7 +77,12 @@ body {
         display: flex;
         flex-wrap: wrap;
     }
-    
+
+    .carousel-item {
+        width: 100%;
+        height: auto;
+    }
+
 }
 
 
