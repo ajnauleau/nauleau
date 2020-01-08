@@ -22,7 +22,7 @@ body {
     border: solid 1px lightgrey;
 }
 
-@media only screen and (max-width: 520px) {
+@media only screen and (max-width: 580px) {
     .navbar > container {
         display: flex;
         flex-wrap: wrap;
@@ -41,7 +41,7 @@ body {
     padding: 20px;
 }
 
-@media only screen and (max-width: 520px) {
+@media only screen and (max-width: 580px) {
 
     .content {
         display: flex;
@@ -71,15 +71,15 @@ body {
     display: flex;
 }
 
-@media only screen and (max-width: 520px) {
+@media only screen and (max-width: 580px) {
 
     .main {
         display: flex;
         flex-wrap: wrap;
     }
 
-    .carousel-item {
-        width: 100%;
+    .carousel {
+        width: 76%;
         height: auto;
     }
 
@@ -88,6 +88,14 @@ body {
 
 .description {
     padding: 38px;
+}
+
+@media only screen and (max-width: 580px) {
+
+    .description {
+        width: 480px;
+    }
+
 }
 
 .item-description {
