@@ -23,9 +23,11 @@ body {
 }
 
 @media only screen and (max-width: 520px) {
-    .navbar {
+    .navbar > container {
         display: flex;
         flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
         width: 100%;
     }
 }
@@ -40,9 +42,14 @@ body {
 }
 
 @media only screen and (max-width: 520px) {
+
     .content {
         display: flex;
         flex-wrap: wrap;
+    }
+
+    .footer-spacer {
+        margin-top: 20px;
     }
 }
 
@@ -65,10 +72,12 @@ body {
 }
 
 @media only screen and (max-width: 520px) {
+
     .main {
         display: flex;
         flex-wrap: wrap;
     }
+    
 }
 
 
