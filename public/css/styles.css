@@ -23,12 +23,11 @@ body {
 }
 
 @media only screen and (max-width: 580px) {
-    .navbar > container {
+    .navbar > .container {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
-        width: 100%;
     }
 }
 
@@ -93,7 +92,7 @@ body {
 @media only screen and (max-width: 580px) {
 
     .description {
-        width: 480px;
+        width: 320px;
     }
 
 }
