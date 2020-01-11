@@ -12,7 +12,7 @@ mainRouter.get('/robots.txt', (req, res) => {
     res.redirect('/pages/robots.txt');
 });
 
-mainRouter.get('/robots.txt', (req, res) => {
+mainRouter.get('/sitemap.xml', (req, res) => {
     res.redirect('/pages/sitemap.xml');
 });
 
