@@ -12,4 +12,8 @@ mainRouter.get('/robots.txt', (req, res) => {
     res.redirect('/pages/robots.txt');
 });
 
+mainRouter.get('/robots.txt', (req, res) => {
+    res.redirect('/pages/sitemap.xml');
+});
+
 module.exports = mainRouter;
