@@ -8,4 +8,8 @@ mainRouter.get('/', (req, res) => {
     res.render('home.hbs', { });
 });
 
+mainRouter.get('/robots.txt', (req, res) => {
+    res.redirect('/pages/robots.txt');
+});
+
 module.exports = mainRouter;
