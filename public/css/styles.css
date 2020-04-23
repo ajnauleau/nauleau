@@ -82,8 +82,8 @@ body {
         flex-wrap: wrap;
     }
 
-    .carousel {
-        width: 54%;
+    .carousel-item img {
+        width: 64%;
         height: auto;
     }
 
