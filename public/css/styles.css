@@ -83,7 +83,7 @@ body {
     }
 
     .carousel-item img {
-        width: 64%;
+        width: 84%;
         height: auto;
     }
 
@@ -96,22 +96,16 @@ body {
         flex-direction: column;
     }
 
-}
-
-@media only screen and (max-width: 580px) {
-
-    .main {
-        display: flex;
-        flex-wrap: wrap;
-    }
-
-    .carousel {
-        width: 54%;
+    .carousel-item img {
+        width: 84%;
         height: auto;
     }
 
-}
+    .carousel {
+        padding-left: 48px;
+    }
 
+}
 
 .description {
     padding: 38px;
