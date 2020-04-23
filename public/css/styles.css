@@ -87,6 +87,10 @@ body {
         height: auto;
     }
 
+    .carousel {
+        padding-left: 48px;
+    }
+
 }
 
 @media only screen and (max-width: 980px) {
@@ -94,15 +98,6 @@ body {
     .main {
         display: flex;
         flex-direction: column;
-    }
-
-    .carousel-item img {
-        width: 84%;
-        height: auto;
-    }
-
-    .carousel {
-        padding-left: 48px;
     }
 
 }
