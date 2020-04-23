@@ -17,6 +17,10 @@ body {
 
 /*Navbar*/
 
+.navbar {
+    width: 100%;
+}
+
 .navbar-styles {
     background-color: #f0f0f0;
     border: solid 1px lightgrey;
@@ -62,12 +66,36 @@ body {
 }
 /*Home Page*/
 
+
 .front-page {
     margin-top: 90px;
 }
 
 .main {
     display: flex;
+}
+
+@media only screen and (max-width: 580px) {
+
+    .main {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .carousel {
+        width: 54%;
+        height: auto;
+    }
+
+}
+
+@media only screen and (max-width: 980px) {
+
+    .main {
+        display: flex;
+        flex-direction: column;
+    }
+
 }
 
 @media only screen and (max-width: 580px) {
