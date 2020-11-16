@@ -3,7 +3,7 @@
 /*Layout*/
 
 body {
-    color: #a83516;
+    color: #b85510;
     font-size: 12px;
 }
 
@@ -75,7 +75,20 @@ body {
     display: flex;
 }
 
+.mobile {
+    display: none;
+}
+
 @media only screen and (max-width: 580px) {
+
+    .web {
+        display: none;
+    }
+
+    .mobile {
+        display: flex;
+        flex-wrap: wrap;
+    }
 
     .main {
         display: flex;
@@ -127,4 +140,7 @@ body {
     margin-bottom: 18px;
 }
 
+.d-block {
+    padding-left: 12px;
+}
 
