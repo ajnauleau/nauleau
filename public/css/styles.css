@@ -26,15 +26,6 @@ body {
     border: solid 1px lightgrey;
 }
 
-@media only screen and (max-width: 580px) {
-    .navbar > .container {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-    }
-}
-
 /*Footer*/
 
 .content {
@@ -42,18 +33,6 @@ body {
     justify-content: space-around;
     margin-top: 40px;
     padding: 20px;
-}
-
-@media only screen and (max-width: 580px) {
-
-    .content {
-        display: flex;
-        flex-wrap: wrap;
-    }
-
-    .footer-spacer {
-        margin-top: 20px;
-    }
 }
 
 .border {
@@ -80,7 +59,17 @@ body {
 }
 
 
-@media only screen and (max-width: 980px) {
+@media only screen and (max-width: 890px) {
+
+    .container.web {
+        display: none;
+    }
+
+    .container.mobile {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 
     .main {
         display: flex;
@@ -89,7 +78,24 @@ body {
 
 }
 
+
 @media only screen and (max-width: 580px) {
+
+    .navbar > .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .content {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .footer-spacer {
+        margin-top: 20px;
+    }
 
     .container.web {
         display: none;
